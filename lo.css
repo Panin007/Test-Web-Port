@@ -1,0 +1,25 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: 300ms;
+}
+
+/*.box:hover{
+    background-color: powderblue;
+}*/
+.box:focus{
+    background-color: brown;
+}
+.shadow{
+    text-shadow: 2px 2px red;
+}
+.bsha{
+    box-shadow: 5px 5px plum;
+}
+.bor{
+    border: 2px solid purple;
+}
+.mar{
+    margin-top: 10px;
+}

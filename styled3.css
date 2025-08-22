@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+}
+.pink{
+    background-color: pink;
+}
+.blue{
+    background-color: blue;
+}
+.brown{
+    background-color: brown;
+}
+.big{
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid darkblue;
+    display: flex; /*เรียงข้อมูลเป็นเส้นตรง*/
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
